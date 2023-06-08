@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="nav-bar">
+        <div class="logo">
+          <img src="./openclose/menu-burger.png" alt="menu" class=" icon menu-icon">
+          <p class="business-logo">sneakers</p>
+        </div>
+        <nav class="nav">
+          <ul class="nav-links navigate-links">
+            <img src="./openclose/sign-out.png" alt="close icon" class="icon close-icon">
+            <li class="nav-item"><a href="#" class="nav-link">Collections</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Men</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="cart-profile">
+        <div class="cart-profile-one">
+          <div class="cart-image">
+            <img src="./icon/bell-ring.png" alt="cart" class="cart">
+            <span class="notifications hide">1</span>
+          </div>
+        </div>
+        <img src="./images 2.jpeg" alt="profile-image" class="profile-image">
+      </div>
+    </header>
+    <section class="product">
+      <div class="product-view">
+        <div class="product-display display-content--1 display-content--active">
+          <img src="./images/image1.jpg" alt="" class="content-image">
+        </div>
+        <div class="product-display display-content--2">
+          <img src="./images/image2.jpg" alt="" class="content-image">
+        </div>
+        <div class="product-display display-content--3">
+          <img src="./images/image3.jpg" alt="" class="content-image">
+        </div>
+        <div class="product-display display-content--4">
+          <img src="./images/image4.jpg" alt="" class="content-image">
+        </div>
+        <div class="product-items">
+          <img src="./images/image1.jpg" alt="image 1" class="pro--image image-active" data-tab="1">
+          <img src="./images/image2.jpg" alt="image 2" class="pro--image" data-tab="2">
+          <img src="./images/image3.jpg" alt="image 3" class="pro--image" data-tab="3">
+          <img src="./images/image4.jpg" alt="image 4" class="pro--image" data-tab="4">
+        </div>
+      </div>
+      <div class="response-slider">
+      
+        <div class="response-slide response-slide--1">
+          <img src="./images/image1.jpg" alt="" class="res-slide-image">
+        </div>
+        <div class="response-slide response-slide--2">
+          <img src="./images/image2.jpg" alt="" class="res-slide-image">
+        </div>
+        <div class="response-slide response-slide--3">
+          <img src="./images/image3.jpg" alt="" class="res-slide-image">
+        </div>
+        <div class="response-slide response-slide--1">
+          <img src="./images/image4.jpg" alt="" class="res-slide-image">
+        </div>
+      
+        <button class="res-slider__btn res-btn--left">&larr;</button>
+        <button class="res-slider__btn res-btn--right">&rarr;</button>
+      </div>
+      <div class="product-details">
+        <h4 class="company-name">SNEAKER COMPANY</h4>
+        <h2 class="shoe-type">Fall Limited Edition <br> Sneakers</h2>
+        <p class="shoe-details">These low-profile sneakers are your perfect <br> casual wear companion featureing a durable <br> rubber outer sole, they'll withstand everything <br> the weather can offer.</p>
+        <div class="price-list">
+          <p class="price">$125.00 <span class="discount">50%</span></p>
+          <p class="previous-price">$250.00</p>
+        </div>
+        <div class="cart-order">
+          <div class="cart-count">
+            <span class="decre">&minus;</span>
+            <span class="cart-num">0</span>
+            <span class="incre">&plus;</span>
+          </div>
+          <button class="add-cart">
+            <span class="add-icon">
+              <img src="./icon/lock-alt.png" alt="lock" class="icon-cart">
+            </span>
+            <span class="cart-word">Add to cart</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="slider-product hidden blur">
+    <div class="modal">
+      <img src="./icon-close.svg" alt="close icon" class="slide-close">
+      <div class="slider">
+        
+        <div class="slide slide--1">
+        <img src="./images/image1.jpg" alt="" class="slide-image">
+        </div>
+        <div class="slide slide--2">
+        <img src="./images/image2.jpg" alt="" class="slide-image">
+        </div>
+        <div class="slide slide--3">
+        <img src="./images/image3.jpg" alt="" class="slide-image">
+        </div>
+        <div class="slide slide--4">
+        <img src="./images/image4.jpg" alt="" class="slide-image">
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+      </div>
+
+      <div class="slide-items">
+        <img src="./images/image1.jpg" alt="image 1" class="slide-item--image  image-active" data-slide="0">
+      
+        <img src="./images/image2.jpg" alt="image 2" class="slide-item--image" data-slide="1">
+      
+        <img src="./images/image3.jpg" alt="image 3" class="slide-item--image" data-slide="2">
+      
+        <img src="./images/image4.jpg" alt="image 4" class="slide-item--image" data-slide="3">
+      </div>
+    </div>
+  </div>
+  <div class="cart-pop cart-pop-positioning hidden-active">
+    <h3 class='pop-heading'>Cart</h3>
+    <hr>
+    <div class="pop-display pop-hidden">
+      <div class="pop-flex">
+        <img src="./images/image1.jpg" alt="pop image" class="pop-image">
+        <div class="pop-details">
+          <p class="pop-type">Fall Limited Edition Sneakers</p>
+          <p class="pop-cal">123</p><span class="pop-cal-answer">0</span>
+        </div>
+      </div>
+      <button type="button" class="checkout">Checkout</button>
+    </div>
+    <div class="pop-non-display">
+      <p>Your Cart is empty</p> 
+    </div>
+  </div>
+  <div class="blurry res-blur"></div>
+  <script src="script.js"></script>
+</body>
+</html>
