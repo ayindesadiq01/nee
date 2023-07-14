@@ -31,9 +31,9 @@ slideClose.addEventListener('click', function(){
 
 // PRODUCT VIEW
 proItems.addEventListener('click', (e) => {
-
+ // const clicked = e.target.classList.contains('pro--image')
  const clicked = e.target.closest('.pro--image');
- // console.log(clicked)
+ console.log(clicked)
  // DYNAMIC CHANGING OF THE PRODUCT ITEMS
  allProImage.forEach((el, i) => el.classList.remove('image-active'));
  if (!clicked) return;
@@ -45,7 +45,6 @@ proItems.addEventListener('click', (e) => {
 
  document.querySelector(`.display-content--${clicked.dataset.tab}`).classList.add('display-content--active');
 });
- 
 // WORKING WITH THE MODAL 
 
 
